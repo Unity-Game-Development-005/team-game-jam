@@ -825,7 +825,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyRigidbody: {fileID: 4544884050011673712}
   enemyObject: {fileID: 991228097124674363}
-  enemyAnimator: {fileID: 0}
+  enemyAnimator: {fileID: 2616232384148997143}
   enemyMovementSpeed: 3
   rangeToChasePlayer: 8
   shootRange: 8
