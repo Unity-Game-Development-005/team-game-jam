@@ -1,19 +1,61 @@
 fileFormatVersion: 2
-guid: 9ac0d3fbcbf7beb4a8979e38049139f1
+guid: 5534ca72d4493462ba7ec134af56d38f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6320095269959122043
-    second: enemy2 perish_0
+      213: 5100103961981124044
+    second: Pizza_Sprite_Sheet 1_0
   - first:
-      213: 2938736535535806455
-    second: enemy2 perish_1
+      213: 6532817509874274319
+    second: Pizza_Sprite_Sheet 1_1
   - first:
-      213: -55463276471585229
-    second: enemy2 perish_2
+      213: 1263235581444050427
+    second: Pizza_Sprite_Sheet 1_2
   - first:
-      213: -7150570292621307650
-    second: enemy2 perish_3
+      213: -6546651118175572881
+    second: Pizza_Sprite_Sheet 1_3
+  - first:
+      213: -8270875554016247578
+    second: Pizza_Sprite_Sheet 1_4
+  - first:
+      213: -1284889526372932072
+    second: Pizza_Sprite_Sheet 1_5
+  - first:
+      213: 2191828187253325227
+    second: Pizza_Sprite_Sheet 1_6
+  - first:
+      213: -6277953705590220197
+    second: Pizza_Sprite_Sheet 1_7
+  - first:
+      213: 5457483030393976487
+    second: Pizza_Sprite_Sheet 1_8
+  - first:
+      213: -7703846116006071491
+    second: Pizza_Sprite_Sheet 1_9
+  - first:
+      213: 3438197908803405109
+    second: Pizza_Sprite_Sheet 1_10
+  - first:
+      213: 4074197514077867125
+    second: Pizza_Sprite_Sheet 1_11
+  - first:
+      213: 1190796298968986136
+    second: Pizza_Sprite_Sheet 1_12
+  - first:
+      213: 7851287886587539423
+    second: Pizza_Sprite_Sheet 1_13
+  - first:
+      213: 1460102267629821067
+    second: Pizza_Sprite_Sheet 1_14
+  - first:
+      213: 4423280960664813816
+    second: Pizza_Sprite_Sheet 1_15
+  - first:
+      213: -8673801929347720780
+    second: Pizza_Sprite_Sheet 1_16
+  - first:
+      213: -2805507177675898415
+    second: Pizza_Sprite_Sheet 1_17
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +102,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -81,10 +123,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -119,19 +161,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -148,51 +177,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: enemy2 perish_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b7c3a88a92d75b750800000000000000
-      internalID: 6320095269959122043
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemy2 perish_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7f7e2191f4d78c820800000000000000
-      internalID: 2938736535535806455
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemy2 perish_2
+      name: Pizza_Sprite_Sheet 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -207,14 +192,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 336f4d3a174fa3ff0800000000000000
-      internalID: -55463276471585229
+      spriteID: ccd727b288537c640800000000000000
+      internalID: 5100103961981124044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy2 perish_3
+      name: Pizza_Sprite_Sheet 1_1
       rect:
         serializedVersion: 2
         x: 32
@@ -229,14 +214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ef098d6443214cc90800000000000000
-      internalID: -7150570292621307650
+      spriteID: f001282b9ea39aa50800000000000000
+      internalID: 6532817509874274319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy2 perish_4
+      name: Pizza_Sprite_Sheet 1_2
       rect:
         serializedVersion: 2
         x: 0
@@ -249,16 +234,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 673e793547f11473890874e0bed4c9d5
-      internalID: -535203015
+      spriteID: bfd4b93811ae78110800000000000000
+      internalID: 1263235581444050427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy2 perish_5
+      name: Pizza_Sprite_Sheet 1_3
       rect:
         serializedVersion: 2
         x: 32
@@ -271,10 +256,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1589e2346c06548479f90484ae2582a7
-      internalID: 488066306
+      spriteID: f6c2bb06e7f9525a0800000000000000
+      internalID: -6546651118175572881
       vertices: []
       indices: 
       edges: []
@@ -283,7 +268,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a8a4185b941ca4f23910e81d26752b2c
+    spriteID: 1addc1f9f500f4645970d0c950b4c94c
     internalID: 0
     vertices: []
     indices: 
@@ -293,12 +278,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      enemy2 perish_0: 6320095269959122043
-      enemy2 perish_1: 2938736535535806455
-      enemy2 perish_2: -55463276471585229
-      enemy2 perish_3: -7150570292621307650
-      enemy2 perish_4: -535203015
-      enemy2 perish_5: 488066306
+      Pizza_Sprite_Sheet 1_0: 5100103961981124044
+      Pizza_Sprite_Sheet 1_1: 6532817509874274319
+      Pizza_Sprite_Sheet 1_2: 1263235581444050427
+      Pizza_Sprite_Sheet 1_3: -6546651118175572881
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

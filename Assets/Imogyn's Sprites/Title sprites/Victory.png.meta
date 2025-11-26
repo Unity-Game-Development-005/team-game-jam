@@ -1,19 +1,34 @@
 fileFormatVersion: 2
-guid: 9ac0d3fbcbf7beb4a8979e38049139f1
+guid: 386bab31fc53147b582c9bda7203dee8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6320095269959122043
-    second: enemy2 perish_0
+      213: -7642986446173420197
+    second: Victory_0
   - first:
-      213: 2938736535535806455
-    second: enemy2 perish_1
+      213: -1213821068326169202
+    second: Victory_1
   - first:
-      213: -55463276471585229
-    second: enemy2 perish_2
+      213: -1810436841963963296
+    second: Victory_2
   - first:
-      213: -7150570292621307650
-    second: enemy2 perish_3
+      213: 5022149424062018482
+    second: Victory_3
+  - first:
+      213: 2721468719747651066
+    second: Victory_4
+  - first:
+      213: 6460854664996107045
+    second: Victory_5
+  - first:
+      213: 8283843702638372321
+    second: Victory_6
+  - first:
+      213: 647112397095841742
+    second: Victory_7
+  - first:
+      213: 350760623906906078
+    second: Victory_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,12 +70,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -81,10 +96,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -119,19 +134,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -148,133 +150,199 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: enemy2 perish_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b7c3a88a92d75b750800000000000000
-      internalID: 6320095269959122043
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemy2 perish_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7f7e2191f4d78c820800000000000000
-      internalID: 2938736535535806455
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemy2 perish_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 336f4d3a174fa3ff0800000000000000
-      internalID: -55463276471585229
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemy2 perish_3
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ef098d6443214cc90800000000000000
-      internalID: -7150570292621307650
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemy2 perish_4
+      name: Victory_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 18
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 673e793547f11473890874e0bed4c9d5
-      internalID: -535203015
+      spriteID: b5545bc4258aee590800000000000000
+      internalID: -7642986446173420197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy2 perish_5
+      name: Victory_1
       rect:
         serializedVersion: 2
-        x: 32
+        x: 17
         y: 0
-        width: 32
-        height: 32
+        width: 25
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1589e2346c06548479f90484ae2582a7
-      internalID: 488066306
+      spriteID: e8598816b24a72fe0800000000000000
+      internalID: -1213821068326169202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory_2
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 0
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c357ac84900e6e0800000000000000
+      internalID: -1810436841963963296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory_3
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3362eea4242b540800000000000000
+      internalID: 5022149424062018482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory_4
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af555e3b16994c520800000000000000
+      internalID: 2721468719747651066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory_5
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 0
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523b484361199a950800000000000000
+      internalID: 6460854664996107045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory_6
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 4
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5ed9635ff16f270800000000000000
+      internalID: 8283843702638372321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory_7
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 0
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf26aeeb410bf800800000000000000
+      internalID: 647112397095841742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Victory_8
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf5a25dde62ed400800000000000000
+      internalID: 350760623906906078
       vertices: []
       indices: 
       edges: []
@@ -283,7 +351,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a8a4185b941ca4f23910e81d26752b2c
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -293,12 +361,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      enemy2 perish_0: 6320095269959122043
-      enemy2 perish_1: 2938736535535806455
-      enemy2 perish_2: -55463276471585229
-      enemy2 perish_3: -7150570292621307650
-      enemy2 perish_4: -535203015
-      enemy2 perish_5: 488066306
+      Victory_0: -7642986446173420197
+      Victory_1: -1213821068326169202
+      Victory_2: -1810436841963963296
+      Victory_3: 5022149424062018482
+      Victory_4: 2721468719747651066
+      Victory_5: 6460854664996107045
+      Victory_6: 8283843702638372321
+      Victory_7: 647112397095841742
+      Victory_8: 350760623906906078
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -86,7 +86,7 @@ public class EnemyController : MonoBehaviour
     {
         // if the player is in the enemies shooting range
         // and the enemy should shoot shoot at the player
-        if (enemyShouldShoot && Vector3.Distance(transform.position, PlayerController.playerControllerScript.transform.position) < shootRange)
+        if (enemyHealth >= 0 && enemyShouldShoot && Vector3.Distance(transform.position, PlayerController.playerControllerScript.transform.position) < shootRange)
         {
             // coundown the fire counter
             fireCounter -= Time.deltaTime;
@@ -158,10 +158,12 @@ public class EnemyController : MonoBehaviour
                     }
                 }
             }
-
-
+            
+            // plays "perish' animation
+            enemyAnimator.SetBool("perish", enemyHealth <= 0);
+            
             // destroy the enemy
-            Destroy(gameObject);
+            Destroy(gameObject, 1.5f);
 
             // play enemy death sound
             int enemyDeathSound = 0;
@@ -195,7 +197,14 @@ public class EnemyController : MonoBehaviour
 
     private void MoveEnemy()
     {
-        enemyRigidbody.linearVelocity = enemyMovementDirection * enemyMovementSpeed;
+        if (enemyHealth >= 0)
+        {
+            enemyRigidbody.linearVelocity = enemyMovementDirection * enemyMovementSpeed;
+        }
+        else
+        {
+            enemyRigidbody.linearVelocity = default;
+        }
     }
 
 

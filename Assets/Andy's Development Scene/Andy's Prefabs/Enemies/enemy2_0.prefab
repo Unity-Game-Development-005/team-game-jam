@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7228870440347689742}
-  - component: {fileID: 2871917028775471156}
   - component: {fileID: 9012523456674931403}
   - component: {fileID: 862781995803096803}
   - component: {fileID: -5392875668934424697}
@@ -37,28 +36,6 @@ Transform:
   - {fileID: 7251501684839365183}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &2871917028775471156
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 386874135076692210}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0f3fdbf512f2f46b680ad0955685676a, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!50 &9012523456674931403
 Rigidbody2D:
   serializedVersion: 5
@@ -136,7 +113,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyRigidbody: {fileID: 9012523456674931403}
   enemyObject: {fileID: 8474850566126666701}
-  enemyAnimator: {fileID: 0}
+  enemyAnimator: {fileID: 1385096695177583707}
   enemyMovementSpeed: 3
   rangeToChasePlayer: 8
   shootRange: 9
@@ -161,6 +138,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6896337702675294773}
   - component: {fileID: 8474850566126666701}
+  - component: {fileID: 1385096695177583707}
   m_Layer: 10
   m_Name: Body
   m_TagString: Untagged
@@ -238,6 +216,28 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1385096695177583707
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2173579992647320300}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0f3fdbf512f2f46b680ad0955685676a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &7977428964419223975
 GameObject:
   m_ObjectHideFlags: 0

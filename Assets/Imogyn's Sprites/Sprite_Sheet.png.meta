@@ -1,19 +1,82 @@
 fileFormatVersion: 2
-guid: 9ac0d3fbcbf7beb4a8979e38049139f1
+guid: d54eb84a6b9ae4be5ac17b88b80bdb1c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6320095269959122043
-    second: enemy2 perish_0
+      213: 4626418583922554301
+    second: Sprite_Sheet_0
   - first:
-      213: 2938736535535806455
-    second: enemy2 perish_1
+      213: -5686291663829786583
+    second: Sprite_Sheet_1
   - first:
-      213: -55463276471585229
-    second: enemy2 perish_2
+      213: -2933638428472788079
+    second: Sprite_Sheet_2
   - first:
-      213: -7150570292621307650
-    second: enemy2 perish_3
+      213: -6249694892611722336
+    second: Sprite_Sheet_3
+  - first:
+      213: 2884016474900687577
+    second: Sprite_Sheet_4
+  - first:
+      213: -468997660800862590
+    second: Sprite_Sheet_5
+  - first:
+      213: 1084024057570613120
+    second: Sprite_Sheet_6
+  - first:
+      213: -8725724303290552413
+    second: Sprite_Sheet_7
+  - first:
+      213: -6836335025816462432
+    second: Sprite_Sheet_8
+  - first:
+      213: 618080467832600145
+    second: Sprite_Sheet_9
+  - first:
+      213: 4727023671956709205
+    second: Sprite_Sheet_10
+  - first:
+      213: -7032454461788503228
+    second: Sprite_Sheet_11
+  - first:
+      213: 7494006367344865848
+    second: Sprite_Sheet_12
+  - first:
+      213: 6350058890856571102
+    second: Sprite_Sheet_13
+  - first:
+      213: -6488826058538495582
+    second: Sprite_Sheet_14
+  - first:
+      213: -803606851250273320
+    second: Sprite_Sheet_15
+  - first:
+      213: -7663526478968917297
+    second: Sprite_Sheet_16
+  - first:
+      213: -6064463977987341302
+    second: Sprite_Sheet_17
+  - first:
+      213: 4161389440646285514
+    second: Sprite_Sheet_18
+  - first:
+      213: -4479101823687574436
+    second: Sprite_Sheet_19
+  - first:
+      213: -4474133232050599153
+    second: Sprite_Sheet_20
+  - first:
+      213: 620856964948189735
+    second: Sprite_Sheet_21
+  - first:
+      213: 9152955907168743133
+    second: Sprite_Sheet_22
+  - first:
+      213: -374391025548404112
+    second: Sprite_Sheet_23
+  - first:
+      213: 6023062867862874158
+    second: Sprite_Sheet_24
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +123,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -81,10 +144,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -119,19 +182,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -148,7 +198,73 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: enemy2 perish_0
+      name: Sprite_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db538f4b037543040800000000000000
+      internalID: 4626418583922554301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9202928ebdb3611b0800000000000000
+      internalID: -5686291663829786583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19bb173746f9947d0800000000000000
+      internalID: -2933638428472788079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_3
       rect:
         serializedVersion: 2
         x: 0
@@ -163,14 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b7c3a88a92d75b750800000000000000
-      internalID: 6320095269959122043
+      spriteID: 0a32e438b9f9449a0800000000000000
+      internalID: -6249694892611722336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy2 perish_1
+      name: Sprite_Sheet_4
       rect:
         serializedVersion: 2
         x: 32
@@ -185,14 +301,36 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7f7e2191f4d78c820800000000000000
-      internalID: 2938736535535806455
+      spriteID: 9da64d824b5160820800000000000000
+      internalID: 2884016474900687577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy2 perish_2
+      name: Sprite_Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286b973cc19cd79f0800000000000000
+      internalID: -468997660800862590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_6
       rect:
         serializedVersion: 2
         x: 0
@@ -207,14 +345,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 336f4d3a174fa3ff0800000000000000
-      internalID: -55463276471585229
+      spriteID: 087597f032a3b0f00800000000000000
+      internalID: 1084024057570613120
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy2 perish_3
+      name: Sprite_Sheet_7
       rect:
         serializedVersion: 2
         x: 32
@@ -229,14 +367,36 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ef098d6443214cc90800000000000000
-      internalID: -7150570292621307650
+      spriteID: 3afaf5e1afff7e680800000000000000
+      internalID: -8725724303290552413
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy2 perish_4
+      name: Sprite_Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab16a4b3857021a0800000000000000
+      internalID: -6836335025816462432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Sheet_9
       rect:
         serializedVersion: 2
         x: 0
@@ -249,32 +409,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 673e793547f11473890874e0bed4c9d5
-      internalID: -535203015
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemy2 perish_5
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1589e2346c06548479f90484ae2582a7
-      internalID: 488066306
+      spriteID: 156f4c729ecd39800800000000000000
+      internalID: 618080467832600145
       vertices: []
       indices: 
       edges: []
@@ -283,7 +421,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a8a4185b941ca4f23910e81d26752b2c
+    spriteID: c0fd5f1c703624c4fb4c860428d3e306
     internalID: 0
     vertices: []
     indices: 
@@ -293,12 +431,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      enemy2 perish_0: 6320095269959122043
-      enemy2 perish_1: 2938736535535806455
-      enemy2 perish_2: -55463276471585229
-      enemy2 perish_3: -7150570292621307650
-      enemy2 perish_4: -535203015
-      enemy2 perish_5: 488066306
+      Sprite_Sheet_0: 4626418583922554301
+      Sprite_Sheet_1: -5686291663829786583
+      Sprite_Sheet_2: -2933638428472788079
+      Sprite_Sheet_3: -6249694892611722336
+      Sprite_Sheet_4: 2884016474900687577
+      Sprite_Sheet_5: -468997660800862590
+      Sprite_Sheet_6: 1084024057570613120
+      Sprite_Sheet_7: -8725724303290552413
+      Sprite_Sheet_8: -6836335025816462432
+      Sprite_Sheet_9: 618080467832600145
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

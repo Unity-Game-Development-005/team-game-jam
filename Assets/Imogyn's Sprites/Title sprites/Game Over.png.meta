@@ -1,19 +1,37 @@
 fileFormatVersion: 2
-guid: 9ac0d3fbcbf7beb4a8979e38049139f1
+guid: 4bb2e7654f6d24df48c3918d29fe25ba
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6320095269959122043
-    second: enemy2 perish_0
+      213: -8557816031639189491
+    second: Game Over_0
   - first:
-      213: 2938736535535806455
-    second: enemy2 perish_1
+      213: 4785595699045466773
+    second: Game Over_1
   - first:
-      213: -55463276471585229
-    second: enemy2 perish_2
+      213: 9126758372691076483
+    second: Game Over_2
   - first:
-      213: -7150570292621307650
-    second: enemy2 perish_3
+      213: 4597229921433945903
+    second: Game Over_3
+  - first:
+      213: -6722920109146148863
+    second: Game Over_4
+  - first:
+      213: 8035775801353264071
+    second: Game Over_5
+  - first:
+      213: -2012951760658599217
+    second: Game Over_6
+  - first:
+      213: -8741599288913197916
+    second: Game Over_7
+  - first:
+      213: -2108473678774902194
+    second: Game Over_8
+  - first:
+      213: -7117140279469556186
+    second: Game Over_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,12 +73,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -81,10 +99,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -119,19 +137,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
     buildTarget: iOS
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -148,133 +153,221 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: enemy2 perish_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b7c3a88a92d75b750800000000000000
-      internalID: 6320095269959122043
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemy2 perish_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7f7e2191f4d78c820800000000000000
-      internalID: 2938736535535806455
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemy2 perish_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 336f4d3a174fa3ff0800000000000000
-      internalID: -55463276471585229
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemy2 perish_3
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ef098d6443214cc90800000000000000
-      internalID: -7150570292621307650
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: enemy2 perish_4
+      name: Game Over_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 17
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 673e793547f11473890874e0bed4c9d5
-      internalID: -535203015
+      spriteID: d08c00519a78c3980800000000000000
+      internalID: -8557816031639189491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: enemy2 perish_5
+      name: Game Over_1
       rect:
         serializedVersion: 2
-        x: 32
+        x: 16
         y: 0
-        width: 32
-        height: 32
+        width: 42
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1589e2346c06548479f90484ae2582a7
-      internalID: 488066306
+      spriteID: 5920e30eee9d96240800000000000000
+      internalID: 4785595699045466773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Over_2
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 0
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385e2136262c8ae70800000000000000
+      internalID: 9126758372691076483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Over_3
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 0
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f270ed1a144accf30800000000000000
+      internalID: 4597229921433945903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Over_4
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 0
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1007301c7c363b2a0800000000000000
+      internalID: -6722920109146148863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Over_5
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb5756148fc48f60800000000000000
+      internalID: 8035775801353264071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Over_6
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 0
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc272fbe90f8014e0800000000000000
+      internalID: -2012951760658599217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Over_7
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 4
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a4858ff2c99fa680800000000000000
+      internalID: -8741599288913197916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Over_8
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e426c5e3c523db2e0800000000000000
+      internalID: -2108473678774902194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Game Over_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62eb791cf96da3d90800000000000000
+      internalID: -7117140279469556186
       vertices: []
       indices: 
       edges: []
@@ -283,7 +376,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a8a4185b941ca4f23910e81d26752b2c
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -293,12 +386,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      enemy2 perish_0: 6320095269959122043
-      enemy2 perish_1: 2938736535535806455
-      enemy2 perish_2: -55463276471585229
-      enemy2 perish_3: -7150570292621307650
-      enemy2 perish_4: -535203015
-      enemy2 perish_5: 488066306
+      Game Over_0: -8557816031639189491
+      Game Over_1: 4785595699045466773
+      Game Over_2: 9126758372691076483
+      Game Over_3: 4597229921433945903
+      Game Over_4: -6722920109146148863
+      Game Over_5: 8035775801353264071
+      Game Over_6: -2012951760658599217
+      Game Over_7: -8741599288913197916
+      Game Over_8: -2108473678774902194
+      Game Over_9: -7117140279469556186
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
