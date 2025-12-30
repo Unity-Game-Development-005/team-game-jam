@@ -22,6 +22,8 @@ public class GameController : MonoBehaviour
     // array for health
     public GameObject[] playerPizzaHealth;
 
+    public GameObject remoteControl;
+
     // array for victory
     public GameObject[] escapeToVictory;
 
@@ -328,6 +330,9 @@ public class GameController : MonoBehaviour
 
         // player health
         playerHealth = 100;
+
+        //set remote control icon in player UI panel to false
+        remoteControl.SetActive(false);
 
         // game time left
         // 3 minutes or 180 seconds

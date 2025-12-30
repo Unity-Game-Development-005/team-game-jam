@@ -27,6 +27,7 @@ public class PlayerController : MonoBehaviour
 
     // if player has remote control
     public bool playerHasRemote;
+    
 
 
 
@@ -211,6 +212,9 @@ public class PlayerController : MonoBehaviour
         {
             // set player has remote flag
             playerHasRemote = true;
+
+            //player remote setActive in player UI panel
+            GameController.gameControllerScript.remoteControl.SetActive(true);
 
             // and destroy the remote
             Destroy(collidingObject.gameObject);
